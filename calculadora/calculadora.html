@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logica</title>
+    <link rel="stylesheet" href="logica.css">
+    <script src="logica.js"></script>
+</head>
+<body>
+
+    <form action="">
+        <input type="number" id="num1" required placeholder="Digite o 1° número">
+
+        <select name="" id="operacao" required>
+            <option value="">Selecione a operação</option>
+            <option value="soma">+</option>
+            <option value="subt">-</option>
+            <option value="multip">*</option>
+            <option value="div">/</option>
+        </select>
+
+        <input type="number" id="num2" required placeholder="Digite o 2° número">
+    </form>
+    
+    <div class="botoes">
+        <button href="#" onclick="calcular()" class="botao">Calcular</button>
+
+        <button href="#" onclick="remove()" class="remove">Limpar</button>
+    </div>
+
+    <div id="resultado"></div>
+        
+    
+</body>
+</html>
